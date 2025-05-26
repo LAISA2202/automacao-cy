@@ -1,0 +1,9 @@
+# dependencies
+/node_modules/
+/videos
+/screenshots
+/reports/html/screenshots/*
+/reports/html/videos/*
+/.pytest_cache
+/.pnp
+.pnp.js
