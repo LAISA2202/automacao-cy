@@ -7,42 +7,35 @@ Este projeto utiliza o Cypress para automação de testes end-to-end (E2E), com 
 
 ## 📁 Estrutura do Projeto
 
+```plaintext
+
 AUTOMACAO/
-│
-├── .vscode/                         # Configurações do VSCode
-│
+├── .vscode/                      # Configurações do VSCode
 ├── cypress/
 │   ├── api/
 │   │   └── api-user/
-│   │       └── usuarios.cy.js        # Testes da API de usuários
-│   │
-│   ├── downloads/                    # Downloads de arquivos gerados nos testes
-│   │
+│   │       └── usuarios.cy.js    # Testes da API de usuários
+│   ├── downloads/                # Downloads de arquivos gerados nos testes
 │   ├── e2e/
-│   │   └── serverest/
-│   │       ├── cadastrar-produto.cy.js  # Teste E2E de cadastro de produto
-│   │       ├── cadastrar-user.cy.js     # Teste E2E de cadastro de usuário
-│   │       └── validar-cliente.cy.js    # Teste E2E de homepage de cliente
-│   │
-│   ├── fixtures/                      # Arquivos de dados para testes
-│   │   └── notebook.jpg
-│   │
-│   └── support/                       # Comandos e configurações globais
-│       ├── commands.js
-│       ├── cucumber-html-reporter.js
-│       ├── e2e.js
-│       └── index.js
-│
-├── node_modules/                      # Dependências do projeto
-│
-├── .gitignore                          # Arquivos e pastas ignorados pelo Git
-├── cypress.config.js                    # Configurações do Cypress
-├── cypress.env.json                      # Variáveis de ambiente
-├── package.json                          # Dependências e scripts do projeto
-├── package-lock.json                     # Controle de versões exatas das dependências
-├── README.md                             # Documentação do projeto
+│   │   ├── serverest/
+│   │   │   ├── cadastrar-produto.cy.js     # Teste E2E de cadastro de produto
+│   │   │   ├── cadastrar-user.cy.js        # Teste E2E de cadastro de usuário
+│   │   │   └── validar-cliente.cy.js       # Teste E2E de homepage de cliente
+│   ├── fixtures/                 # Arquivos de dados para testes
+│   ├── support/                 
+│   │   ├── commands.js           # Comandos e configurações globais
+│   │   ├── cucumber-html-reporter.js
+│   │   ├── e2e.js
+│   │   └── index.js
+├── node_modules/                # Dependências do projeto
+├── .gitignore                   # Arquivos e pastas ignorados pelo Git
+├── cypress.config.js           # Configurações do Cypress
+├── cypress.env.json            # Variáveis de ambiente
+├── package.json                # Dependências e scripts do projeto
+├── package-lock.json           # Controle de versões exatas das dependências
+├── README.md                   # Documentação do projeto
+└── notebook.jpg                # Imagem de apoio
 
----
 
 ## 🧰 Tecnologias Utilizadas
 
